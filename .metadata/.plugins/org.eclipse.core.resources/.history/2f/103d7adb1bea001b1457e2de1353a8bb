@@ -1,0 +1,15 @@
+package poo;
+
+public class EntregaCartaoApp {
+
+	public static void main(String[] args) {
+		
+		Endereco endereco = new Endereco();
+		// dados do endereco
+		
+		Cliente cliente = new Cliente();
+		// dados do cliente
+		cliente.enderecos.add(endereco);
+	}
+	
+}
